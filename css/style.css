@@ -545,7 +545,7 @@ div#information {
 
 #about_go{
     height: 800px;
-    background: url(../images/main/about_go.jpg) no-repeat center top fixed;
+    background: url(../images/main/about_go.jpg) no-repeat center center fixed;
     border-top: 2px solid #2d2d2d;    
     border-bottom: 2px solid #2d2d2d;
     position: relative;
