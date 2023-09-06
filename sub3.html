@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- page title -->
+    <title>부산거리영화제</title>
+    <link rel="shortcut icon" href="./images/common/bsff_favicon.png" type="image/x-icon">
+    <!-- font -->
+    <link rel="stylesheet" href="./fonts/pretendard.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- aos animation -->
+    <!--aos CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- js -->
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/bsff_js.js"></script>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./css/sub3_style.css">
+</head>
+<body>
+
+    
+    <!-- header -->
+
+    <header id="header">
+        <div class="header_inner">
+            <h1>
+                <a href="./index.html">
+                    <img class="logo1" src="./images/common/logo1.png" alt="부산거리영화제 로고1">
+                    <div class="logo_symbol">
+                        <img class="logo2" src="./images/common/logo2.png" alt="로고2">
+                        <div class="film"></div>
+                    </div><!-- logo_symbol -->
+                </a>
+            </h1>
+
+
+            <div class="header_menu">
+                <div class="header_menu">
+                    <ul id="gnb">
+                        <li>
+                            <a href="./sub1.html">BSFF</a>
+                            <ul class="sub sub1">
+                                <li><a href="./sub1.html#intro">영화제 소개</a></li>
+                                <li><a href="./sub1.html#overview">개최개요</a></li>
+                                <li><a href="./sub1.html#fi">FI</a></li>
+                                <li><a href="./sub1.html#pt">포스터 / 트레일러</a></li>
+                                <li><a href="./sub1.html#oc">조직구성</a></li>
+                            </ul>
+                        </li>
+    
+                        <li>
+                            <a href="./sub2.html">PROGRAM</a>
+                            <ul class="sub sub2">
+                                <li><a href="./sub2.html#program">BSFF 상영작</a></li>
+                                <li><a href="./sub2.html#program_event">프로그램 이벤트</a></li>
+                            </ul>
+                        </li>
+    
+                        <li class="on">
+                            <a href="./sub3.html">SCREENING / TICKET</a>
+                            <ul class="sub sub3">
+                                <li><a href="./sub3.html#st">상영시간표</a></li>
+                                <li><a href="./sub3.html#sv">상영장소안내</a></li>
+                                <li><a href="./sub3.html#ti">예매안내</a></li>
+                                <li><a href="./sub3.html#sn">관람유의사항</a></li>
+                            </ul>
+                        </li>
+    
+                        <li>
+                            <a href="./sub4.html">COMMUNITY</a>
+                            <ul class="sub sub4">
+                                <li><a href="./sub4.html#nn">공지사항 / 뉴스</a></li>
+                                <li><a href="./sub4.html#event">이벤트 / 공연 / 전시</a></li>
+                                <li><a href="./sub4.html#store">BSFF 스토어</a></li>
+                                <li><a href="./sub4.html#webzine">BSFF 웹진</a></li>
+                                <li><a href="./sub4.html#faq">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="h_utility">
+                    <li><a href="#none"><img src="./images/common/header_login _icon.png" alt="로그인"></a></li>
+                    <li><a href="#none"><img src="./images/common/header_mypage_icon.png" alt="마이페이지"></a></li>
+                    <li><a href="#none"><img src="./images/common/header_search_icon.png" alt="검색"></a></li>
+                </ul>
+            </div><!-- menu -->
+        </div><!-- header_inner -->
+    </header>
+
+
+    <!-- quick menu -->
+
+    <div id="quick_menu">
+        <ul>
+            <li>
+                <a href="#none">
+                    <div class="quick_box">
+                        <img src="./images/common/fixed_menu_ticket.png" alt="티켓 바로가기" title="티켓 바로가기">
+                    </div><!-- quick_box -->    
+                </a>
+            </li>
+
+            <li>
+                <a href="#none">
+                    <div class="quick_box">
+                        <img src="./images/common/fixed_menu_time.png" alt="상영시간표 바로가기" title="상영시간표 바로가기">
+                    </div><!-- quick_box -->
+                </a>
+            </li>
+
+            <li>
+                <a href="#none">
+                    <div class="quick_box">
+                        <img src="./images/common/fixed_menu_inquiry.png" alt="1:1문의 바로가기" title="1:1문의 바로가기">
+                    </div><!-- quick_box -->
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="quick_box">
+                        <img src="./images/common/fixed_menu_top.png" alt="맨 위로 가기" title="맨 위로 가기">
+                    </div><!-- quick_box -->
+                </a>
+            </li>
+        </ul>
+    </div><!-- quick menu -->
+
+
+
+    <main>
+
+        <div class="banner">
+            <div class="banner_text-wrap">
+                <svg class="banner_title" width=570 height=120 viewBox="0 0 570 120">
+                    <text x="0" y="50%"  alignment-baseline="middle">S</text>
+                    <text x="35" y="50%" alignment-baseline="middle">C</text>
+                    <text x="75" y="50%" alignment-baseline="middle">R</text>
+                    <text x="110" y="50%" alignment-baseline="middle">E</text>
+                    <text x="143" y="50%" alignment-baseline="middle">E</text>
+                    <text x="175" y="50%" alignment-baseline="middle">N</text>
+                    <text x="218" y="50%" alignment-baseline="middle">I</text>
+                    <text x="234" y="50%" alignment-baseline="middle">N</text>
+                    <text x="274" y="50%" alignment-baseline="middle">G</text>
+                    <text x="286" y="50%" alignment-baseline="middle"></text>
+                    <text x="328" y="50%" alignment-baseline="middle">/</text>
+                    <text x="348" y="50%" alignment-baseline="middle"></text>
+                    <text x="358" y="50%" alignment-baseline="middle">T</text>
+                    <text x="395" y="50%" alignment-baseline="middle">I</text>
+                    <text x="409" y="50%" alignment-baseline="middle">C</text>
+                    <text x="450" y="50%" alignment-baseline="middle">K</text>
+                    <text x="489" y="50%" alignment-baseline="middle">E</text>
+                    <text x="522" y="50%" alignment-baseline="middle">T</text>
+                </svg>
+            </div>
+        </div><!-- banner -->
+
+
+        <div class="shortcut">
+            <a href="#st" class="st_btn">상영시간표</a>
+            <a href="#sv" class="sv_btn">상영장소 안내</a>
+            <a href="#ti" class="ti_btn">예매 안내</a>
+            <a href="#sn" class="sn_btn">관람유의사항</a>
+        </div><!-- shortcut -->
+
+
+        <div id="st">
+            <h1 class="title">상영시간표</h1>
+
+            <ul class="date">
+                <li><a href="#none">4월 18일(목)</a></li>
+                <li><a href="#none">4월 19일(금)</a></li>
+                <li class="st_on"><a href="#none">4월 20일(토)</a></li>
+                <li><a href="#none">4월 21일(일)</a></li>
+                <li><a href="#none">4월 22일(월)</a></li>
+                <li><a href="#none">4월 23일(화)</a></li>
+            </ul>
+
+            <div class="st_guide">
+                <div class="icon_box1">
+                    <p>
+                        <span class="st_icon g">G</span> &nbsp; | 전체관람가
+                    </p>
+
+                    <p>
+                        <span class="st_icon tw">12</span> &nbsp; | 12세 이상 관람가
+                    </p>
+
+                    <p>
+                        <span class="st_icon fif">15</span> &nbsp; | 15세 이상 관람가
+                    </p>
+
+                    <p>
+                        <span class="st_icon ei">18</span> &nbsp; | 18세 이상 관람가
+                    </p>
+                </div><!-- icon box1 -->
+
+                <div class="icon_box2">
+                    <p>
+                        <span class="st_icon gv">GV</span> &nbsp; | 관객과의 대화
+                    </p>
+
+                    <p>
+                        <span class="st_icon pe">PE</span> &nbsp; | 프로그램 이벤트
+                    </p>
+                </div><!-- icon box2 -->
+
+                <ul class="st_sv_guide">
+                    <li>4월 18일(목) - 영화의전당 야외극장</li>
+                    <li>4월 19일(금) - 삼락공원 / 화명생태공원</li>
+                    <li>4월 20일(토) - 부산시민공원 / 삼락공원</li>
+                    <li>4월 21일(일) - 삼락공원 / 화명생태공원</li>
+                    <li>4월 22일(월) - 부산시민공원 / 다대포 해변공원</li>
+                    <li>4월 23일(화) - 영화의전당 야외극장</li>
+                </ul><!-- sv_gudie -->
+
+            </div><!-- sv_guide -->
+
+            <table class="timetable">
+                <tr class="first">
+                    <th></th>
+                    <th>1회</th>
+                    <th>2회</th>
+                    <th>3회</th>
+                    <th>4회</th>
+                </tr>
+
+                 <tr>
+                    <th class="venue">부산시민공원</th>
+                    <td>
+                        <p class="time">10:30 ~ 12:11</p>
+                        <p class="mv_title">보라</p>
+                        <div class="st_icon_box">
+                            <span class="st_icon tw">12</span>
+                            <span class="st_icon gv">GV</span>
+                        </div><!-- st_icon -->
+                        <div class="st_btn_box">
+                            <a href="#none" title="관심작 추가하기"><img src="./images/sub3_screening_ticket/st_btn_f.png" alt="관심작 추가하기 버튼 이미지"></a>
+                            <a href="#none" class="st_in_btn st_v">보기</a>
+                            <a href="#none" class="st_in_btn st_r">예매</a>
+                        </div><!-- st_btn_box -->
+                    </td>
+                    <td>
+                        <p class="time">12:00 ~ 13:29</p>
+                        <p class="mv_title">뉴 타운</p>
+                        <div class="st_icon_box">
+                            <span class="st_icon tw">12</span>
+                            <span class="st_icon pe">PE</span>
+                        </div><!-- st_icon -->
+                        <div class="st_btn_box">
+                            <a href="#none" title="관심작 추가하기"><img src="./images/sub3_screening_ticket/st_btn_f.png" alt="관심작 추가하기 버튼 이미지"></a>
+                            <a href="#none" class="st_in_btn st_v">보기</a>
+                            <a href="#none" class="st_in_btn st_r">예매</a>
+                        </div><!-- st_btn_box -->
+
+                    </td>
+
+                    <td>
+                    </td>
+
+                    <td>
+                    </td>
+                 </tr>
+
+
+                 <tr>
+                    <th class="venue">삼락공원</th>
+                    <td>
+                        <p class="time">10:30 ~ 11:58</p>
+                        <p class="mv_title">초겨울의 행성</p>
+                        <div class="st_icon_box">
+                            <span class="st_icon fif">15</span>
+                            <span class="st_icon gv">GV</span>
+                        </div><!-- st_icon -->
+                        <div class="st_btn_box">
+                            <a href="#none" title="관심작 추가하기"><img src="./images/sub3_screening_ticket/st_btn_f.png" alt="관심작 추가하기 버튼 이미지"></a>
+                            <a href="#none" class="st_in_btn st_v">보기</a>
+                            <a href="#none" class="st_in_btn st_r">예매</a>
+                        </div><!-- st_btn_box -->
+                    </td>
+                    <td>
+                        <p class="time">13:00 ~ 15:06</p>
+                        <p class="mv_title">로버트 씨의 성</p>
+                        <div class="st_icon_box">
+                            <span class="st_icon tw">12</span>
+                        </div><!-- st_icon -->
+                        <div class="st_btn_box">
+                            <a href="#none" title="관심작 추가하기"><img src="./images/sub3_screening_ticket/st_btn_f.png" alt="관심작 추가하기 버튼 이미지"></a>
+                            <a href="#none" class="st_in_btn st_v">보기</a>
+                            <a href="#none" class="st_in_btn st_r">예매</a>
+                        </div><!-- st_btn_box -->
+
+                    </td>
+                    <td>
+                        <p class="time">18:00 ~ 19:52</p>
+                        <p class="mv_title">로저</p>
+                        <div class="st_icon_box">
+                            <span class="st_icon g">G</span>
+                            <span class="st_icon pe">PE</span>
+                        </div><!-- st_icon -->
+                        <div class="st_btn_box">
+                            <a href="#none" title="관심작 추가하기"><img src="./images/sub3_screening_ticket/st_btn_f.png" alt="관심작 추가하기 버튼 이미지"></a>
+                            <a href="#none" class="st_in_btn st_v">보기</a>
+                            <a href="#none" class="st_in_btn st_r">예매</a>
+                        </div><!-- st_btn_box -->
+                    </td>
+                    <td>
+                        <p class="time">20:20 ~ 21:33</p>
+                        <p class="mv_title">히치하이커</p>
+                        <div class="st_icon_box">
+                            <span class="st_icon fif">15</span>
+                            <span class="st_icon gv">GV</span>
+                        </div><!-- st_icon -->
+                        <div class="st_btn_box">
+                            <a href="#none" title="관심작 추가하기"><img src="./images/sub3_screening_ticket/st_btn_f.png" alt="관심작 추가하기 버튼 이미지"></a>
+                            <a href="#none" class="st_in_btn st_v">보기</a>
+                            <a href="#none" class="st_in_btn st_r">예매</a>
+                        </div><!-- st_btn_box -->
+                    </td>
+                 </tr>
+            </table>
+
+
+
+            
+        </div><!-- st -->
+
+        
+        
+        
+        <div id="sv">
+
+                <h1 class="title">상영 장소 안내</h1>
+
+                <div class="sv_inner">
+                    <div class="sv_map">
+                        <img class="map" src="./images/sub3_screening_ticket/busan_map.png" alt="부산 지도">
+                        <a href="#sv1"><img class="pin pin_o" src="./images/sub3_screening_ticket/pin_orange.png" alt="핀"></a>
+                        <a href="#sv2"><img class="pin pin_g" src="./images/sub3_screening_ticket/pin_green.png" alt="핀"></a>
+                        <a href="#sv3"><img class="pin pin_b" src="./images/sub3_screening_ticket/pin_blue.png" alt="핀"></a>
+                        <a href="#sv4"><img class="pin pin_p" src="./images/sub3_screening_ticket/pin_pink.png" alt="핀"></a>
+                        <a href="#sv5"><img class="pin pin_y" src="./images/sub3_screening_ticket/pin_yellow.png" alt="핀"></a>
+                    </div><!-- sv_map -->
+    
+    
+                        <ul>
+                            <li class="sv1_li"><a href="#sv1">부산시민공원</a></li>
+                            <li class="sv2_li"><a href="#sv2">삼락공원</a></li>
+                            <li class="sv3_li"><a href="#sv3">화명생태공원</a></li>
+                            <li class="sv4_li"><a href="#sv4">영화의전당
+                                <br> 야외극장</a></li>
+                            <li class="sv5_li"><a href="#sv5">
+                                다대포 <br>해변공원
+                            </a></li>
+                        </ul>
+                </div><!-- sv_inner -->
+                
+
+                <div class="sv_info">
+                    <div id="sv1" class="sv_info_inner">
+                        
+                        <h2 class="sv_title sv_title1"><span>부</span>산시민공원</h2>
+
+                        <div class="sv_content">
+                            <p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13046.148848104927!2d129.0573853!3d35.1681608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eb41fdb8ba3d%3A0x7a2af1771124ab48!2z67aA7IKw7Iuc66-86rO17JuQ!5e0!3m2!1sko!2skr!4v1693470896042!5m2!1sko!2skr" width="660" height="471" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </p>
+                            <div class="sv_info_text">
+                                <h3>부산시민공원</h3>
+
+                                <table>
+                                    <tr>
+                                        <th>주소</th>
+                                        <td>부산광역시 부산진구 시민공원로 73</td>
+                                    </tr>
+                                    <tr>
+                                        <th>지하철</th>
+                                        <td>1호선 부전역 7번 출구 앞 도보 5~10분</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>버스</th>
+                                        <td>
+                                            연지동(부산국악원)방면 : 33, 44, 63, 83-1, 179 <br>
+                                            부암동(부암오거리)방면 : 54, 81, 88, 133<br>
+                                            부전동(송상현광장)방면 : 1010, 31, 33, 62, 77, 87, 110-1, 129-1, 141, 5-1
+                                            10, 20, 29, 43, 52, 57, 80, 86, 99, 103, 111, 1002
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>상영 일자</th>
+                                        <td>
+                                            2024년 4월 20일(토), 22일(월)
+                                        </td>
+                                    </tr>
+
+                                </table>                          
+                            </div><!-- sv_info_text -->
+                        </div><!-- sv_content --> 
+                        
+                        <!-- <div class="swiper sv_mv">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide"><img src="../" alt=""></div>
+                            </div>
+                            <div class="swiper-pagination"></div> -->
+                        
+                    </div><!-- sv_inner -->
+
+                    
+                    <div id="sv2" class="sv_info_inner">
+                        
+                        <h2 class="sv_title sv_title2"><span>삼</span>락공원</h2>
+
+                        <div class="sv_content">
+                            <p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52184.21830554182!2d128.89732264863284!3d35.168748400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568c1cf64bb0055%3A0x550b45d4a67c2c54!2z7IK865297IOd7YOc6rO17JuQ!5e0!3m2!1sko!2skr!4v1693755794934!5m2!1sko!2skr" width="660" height="471" allowfullscreen="" loading="lazy"  홈페이지referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </p>
+                            <div class="sv_info_text">
+                                <h3>삼락공원</h3>
+
+                                <table>
+                                    <tr>
+                                        <th>주소</th>
+                                        <td>부산광역시 사상구 삼락동 686</td>
+                                    </tr>
+                                    <tr>
+                                        <th>지하철</th>
+                                        <td>김해 경전철 괘법 르네시떼역 1번 출구 도보 6분</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>버스</th>
+                                        <td>
+                                            123, 126, 77, 138-1, 110
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>상영 일자</th>
+                                        <td>
+                                            2024년 4월 19일(금), 20일(토), 21일(일)
+                                        </td>
+                                    </tr>
+                                </table>                          
+                            </div><!-- sv_info_text -->
+                            
+                        </div><!-- sv_flex -->
+
+                    </div><!-- sv_info_inner -->
+
+                    <div id="sv3" class="sv_info_inner" >
+                        
+                        <h2 class="sv_title sv_title3"><span>화</span>명생태공원</h2>
+
+                        <div class="sv_content">
+                            <p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.1879575722387!2d129.00093317548007!3d35.22669085480988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35689569678c8cf7%3A0xdc403ed7946de12!2z7ZmU66qF7IOd7YOc6rO17JuQ!5e0!3m2!1sko!2skr!4v1693755676838!5m2!1sko!2skr" width="660" height="471" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </p>
+                            <div class="sv_info_text">
+                                <h3>화명생태공원</h3>
+
+                                <table>
+                                    <tr>
+                                        <th>주소</th>
+                                        <td>부산 북구 화명동 1718-17</td>
+                                    </tr>
+                                    <tr>
+                                        <th>지하철</th>
+                                        <td>2호선 수정역 5번 출구에서 도보 6분</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>버스</th>
+                                        <td>111, 121, 126, 15, 59</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>상영 일자</th>
+                                        <td>
+                                            2024년 4월 19일(금), 21일(일)
+                                        </td>
+                                    </tr>
+
+                                </table>                          
+                            </div><!-- sv_info_text -->
+                            
+                        </div><!-- sv_flex -->
+
+                    </div><!-- sv_info_inner -->
+
+
+
+                    <div id="sv4" class="sv_info_inner">
+                        
+                        <h2 class="sv_title sv_title4"><span>영</span>화의전당 야외극장</h2>
+
+                        <div class="sv_content">
+                            <p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.4160253419996!2d129.12462067547767!3d35.171182157824354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356892c3f4f9610f%3A0xa236b2756c513c71!2z7JiB7ZmU7J2Y7KCE64u5!5e0!3m2!1sko!2skr!4v1693755829338!5m2!1sko!2skr" width="660" height="471" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </p>
+                            <div class="sv_info_text">
+                                <h3>영화의전당 야외극장</h3>
+
+                                <table>
+                                    <tr>
+                                        <th>주소</th>
+                                        <td>부산광역시 해운대구 수영강변대로 120</td>
+                                    </tr>
+                                    <tr>
+                                        <th>지하철</th>
+                                        <td>2호선 센텀시티역 12번, 6번출구 도보 5분</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>버스</th>
+                                        <td> 5-1, 36, 39, 40, 63, 115, 139, 141, 155, 181, 307(좌석), 1001(급행), 1002(급행)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>상영 일자</th>
+                                        <td>
+                                            2024년 4월 18일(목), 23일(화)
+                                        </td>
+                                    </tr>
+
+                                </table>                          
+                            </div><!-- sv_info_text -->
+                            
+                        </div><!-- sv_flex -->
+
+                    </div><!-- sv_info_inner -->
+
+
+                    <div id="sv5" class="sv_info_inner">
+                        
+                        <h2 class="sv_title sv_title5"><span>다</span>대포 해변공원</h2>
+
+                        <div class="sv_content">
+                            <p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.4408439495837!2d128.96510417547233!3d35.04571586462329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568dd6b2e5b82d7%3A0x90152cf6ea845540!2z64uk64yA7Y-sIO2VtOuzgOqzteybkA!5e0!3m2!1sko!2skr!4v1693755876843!5m2!1sko!2skr" width="660" height="471" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </p>
+                            <div class="sv_info_text">
+                                <h3>다대포 해변공원</h3>
+
+                                <table>
+                                    <tr>
+                                        <th>주소</th>
+                                        <td>부산광역시 사하구 다대동</td>
+                                    </tr>
+                                    <tr>
+                                        <th>지하철</th>
+                                        <td>1호선 다대포해수욕장역</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>버스</th>
+                                        <td>2, 3, 11, 96, 96-1, 338, 1000, 사하3-1, 사하5</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>상영 일자</th>
+                                        <td>
+                                            2024년 4월 22일(월)
+                                        </td>
+                                    </tr>
+                                </table>                         
+                            </div><!-- sv_info_text -->
+                            
+                        </div><!-- sv_flex -->
+
+                    </div><!-- sv_info_inner -->
+                </div><!-- sv_info -->
+
+
+        </div><!-- sv -->
+
+        
+        
+        <div id="ti">
+            <div class="ti_inner">
+                <h1 class="title">예매 안내</h1>
+
+                <div class="ti_title">
+                    <h2>티켓 가격</h2>
+                    <div class="ti_line"></div>
+                </div><!-- ti_title -->
+
+                
+                <div class="ti_content ti_price">
+                    <div class="ti_p1">
+                        <div class="ti_tit ti_tit1">
+                            <img src="./images/sub3_screening_ticket/ti_orange.png" alt="제목 도형">
+                            <p>
+                                일반 티켓
+                            </p>    
+                        </div>
+
+                        <p>
+                            <span>가격: 무료</span> <br>
+                            부산 거리영화제는 지방 문화인프라 제공 및 <br>
+                            문화예술 부흥을 목적으로 하는 비영리 영화제입니다. <br>
+                            부산거리영화제의 영화는 기본적으로 무료 상영입니다.
+                        </p>
+                    </div><!-- ti_p1 -->
+
+                    <div class="ti_p2">
+                        <div class="ti_tit ti_tit1">
+                            <img src="./images/sub3_screening_ticket/ti_orange.png" alt="제목 도형">
+                            <p>
+                                후원 티켓
+                            </p>   
+                        </div>
+
+                        <p>
+                            <span>가격: 10,000원</span> <br>
+                            부산거리영화제의 운영비 후원 목적 및 수익의 일정 부분이 <br>
+                            부산지역 취약계층에게 기부되는 후원티켓입니다.                        
+                        </p>
+                    </div><!-- ti_p2 -->
+                </div><!-- ti_price -->
+
+
+
+                <div class="ti_title">
+                    <h2>예매 기간</h2>
+                    <div class="ti_line"></div>
+                </div><!-- ti_title -->
+
+                <div class="ti_content ti_period">
+                    <div class="ti_period1">
+                        <div class="ti_tit ti_tit1">
+                            <img src="./images/sub3_screening_ticket/ti_green.png" alt="제목 도형">
+                            <p>
+                                개,폐막식
+                            </p>    
+                        </div>
+
+                        <p>
+                            <span>4월 8일 월요일 14:00~ 개,폐막식 시작 전까지</span>  
+                        </p>
+                    </div><!-- ti_period1 -->
+
+                    <div class="ti_period2">
+                        <div class="ti_tit ti_tit1">
+                            <img src="./images/sub3_screening_ticket/ti_green.png" alt="제목 도형">
+                            <p>
+                                일반 상영
+                            </p>   
+                        </div>
+
+                        <p>
+                            <span>4월 10일 수요일 14:00 ~ 해당 영화 상영 시작 전까지</span>  
+                        </p>
+                    </div><!-- ti_period2 -->
+                </div><!-- ti_period -->
+
+
+
+                <div class="ti_title">
+                    <h2>예매 가이드</h2>
+                    <div class="ti_line"></div>
+                </div><!-- ti_title -->
+
+
+                <div class="ti_content ti_guide">
+
+                    <div class="ti_g">
+                        <div class="ti_tit ti_tit2">
+                            <img src="./images/sub3_screening_ticket/ti_blue.png" alt="제목 도형">
+                            <p>
+                               예매 방법
+                            </p>    
+                        </div>
+
+                        <p>
+                            부산거리영화제 홈페이지에 접속하여 로그인 후, 예매 사이트로 이동하여 예매하실 수 있습니다. <br> 
+                            한 영화 당 1회 4매까지 예매가 가능합니다. <br>
+                            예매 내역은 예매 시 기재한 정보를 통해 확인 가능합니다. <br>
+                        </p>
+                    </div><!-- ti_g -->
+
+                    <div class="ti_g">
+                        <div class="ti_tit ti_tit2">
+                            <img src="./images/sub3_screening_ticket/ti_blue.png" alt="제목 도형">
+                            <p>
+                                예매 안내
+                            </p>    
+                        </div>
+
+                        <p>
+                            부산거리영화제는 기본적으로 온라인 예매 방식을 채택하고 있습니다. <br>
+                            일부 좌석은 현장 예매 전용으로 두고 있으며, 또한 잔여 좌석이 존재할 경우 현장에서도 예매가 가능합니다. <br>
+                            현장 예매 전용 좌석 포함 매진 시 현장 구매가 불가합니다. <br>
+                            장애인 관객 및 단체 관객을 대상으로 4월 1일(월)부터 4월 15일(월)까지 별도 신청 방식으로 사전 예매를 진행합니다.
+                        </p>
+                    </div><!-- ti_g -->
+
+                    <div class="ti_g">
+                        <div class="ti_tit ti_tit2">
+                            <img src="./images/sub3_screening_ticket/ti_blue.png" alt="제목 도형">
+                            <p>
+                                결제 수단
+                            </p>    
+                        </div>
+
+                        <p>
+                            일반티켓: 무료 <br>
+                            후원티켓: 신용/체크카드, 무통장입금, 휴대폰 결제, 삼성페이, 카카오페이, 네이버페이 등
+                        </p>
+                    </div><!-- ti_g -->
+
+                    <div class="ti_g">
+                        <div class="ti_tit ti_tit2">
+                            <img src="./images/sub3_screening_ticket/ti_blue.png" alt="제목 도형">
+                            <p>
+                                티켓 수령
+                            </p>    
+                        </div>
+
+                        <p>
+                            모바일 티켓으로 입장이 가능하며 지류 티켓의 경우 상영 장소 데스크에서 발급받으실 수 있습니다. <br>
+                            <span>모바일 티켓 캡쳐 이미지 및 예매번호로는 입장이 불가</span>합니다.
+                        </p>
+                    </div><!-- ti_g -->
+
+                    <div class="ti_g">
+                        <div class="ti_tit ti_tit2">
+                            <img src="./images/sub3_screening_ticket/ti_blue.png" alt="제목 도형">
+                            <p>
+                                예매 취소
+                            </p>    
+                        </div>
+
+                        <p>
+                            <span>해당 영화 상영 전까지(온오프라인 동일)</span> <br>
+                            지류 티켓으로 발권한 경우 현장 데스크에서만 취소가 가능합니다.
+                        </p>
+                    </div><!-- ti_g -->
+
+                </div><!-- ti_guide -->
+
+
+                <div class="ti_title">
+                    <h2>예매 시 유의사항</h2>
+                    <div class="ti_line"></div>
+                </div><!-- ti_title -->
+
+
+                <div class="ti_content ti_note">
+
+                    <div class="ti_n">
+                        <div class="ti_tit ti_tit2">
+                            <img src="./images/sub3_screening_ticket/ti_pink.png" alt="제목 도형">
+                            <p>
+                                취소 관련
+                            </p>    
+                        </div>
+
+                        <p>
+                            상영 시작 전에는 예매 취소가 가능하나, 상영 시작 후에는 예매 취소가 불가합니다. <br>
+                            한 작품 당 여러 매의 티켓을 예매하신 경우 부분 취소는 불가하며 전체 취소 후 다시 예매해야 합니다. <br>
+                            후원티켓의 경우 취소 수수료가 부과되지 않으며, 상영 시작 후에는 환불이 불가합니다.                        
+                        </p>
+                    </div><!-- ti_g -->
+
+                    <div class="ti_n">
+                        <div class="ti_tit ti_tit2">
+                            <img src="./images/sub3_screening_ticket/ti_pink.png" alt="제목 도형">
+                            <p>
+                                지류 티켓
+                            </p>    
+                        </div>
+
+                        <p>
+                            모바일 티켓으로 관람 시 상영 종료 후에도 데스크에서 종이 티켓으로 발권 가능합니다. <br>
+                            지류 티켓은 분실, 훼손 등 어떤 이유라도 재발권이 불가합니다.                        </p>
+                    </div><!-- ti_g -->
+
+                </div><!-- ti_note -->
+
+
+
+
+
+
+            </div><!-- ti_inner -->
+        </div><!-- ti -->
+
+
+
+        <div id="sn">
+
+            <h1 class="title">관람유의사항</h1>
+
+            <ul>
+                <li>
+                    <div class="sn_icon">
+                        <img src="./images/sub3_screening_ticket/sn_time.png" alt="정시 상영">
+                    </div>
+                    <h4>정시 상영</h4>
+                    <p>
+                        부산거리영화제의 모든 상영은 <br>
+                        <span>정시 상영을 원칙</span>으로 합니다. <br>
+                        입장이 늦으실 경우 <br>
+                        지정 좌석이 보장되지 않을 수 있습니다.
+                    </p>
+                </li>
+
+                <li>
+                    <div class="sn_icon">
+                        <img src="./images/sub3_screening_ticket/sn_seat.png" alt="지정 좌석">
+                    </div>
+                    <h4>지정 좌석</h4>
+                    <p>
+                        좌석이 지정된 상영의 경우 반드시 <br>
+                        <span>예매한 좌석에 착석</span>해주시기 바랍니다. <br>
+                        상영 중 좌석 이동은 삼가주시기 바랍니다.
+                    </p>
+                </li>
+
+
+                <li>
+                    <div class="sn_icon">
+                        <img src="./images/sub3_screening_ticket/sn_age.png" alt="관람 등급 엄수">
+                    </div>
+                    <h4>관람 등급 엄수</h4>
+                    <p>
+                        관람 시 <span>영화 관람 등급을 엄수</span>해주시기 바랍니다. <br>
+                        만 18세 미만 청소년은 보호자가 동반하여도 <br>
+                        청소년관람불가 등급의 상영작 관람이 불가하며, <br>
+                        연령 조건을 만족하더라도 <br>
+                        고등학교 재학생은 관람이 불가합니다.                    
+                    </p>
+                </li>
+
+
+                <li>
+                    <div class="sn_icon">
+                        <img src="./images/sub3_screening_ticket/sn_nodrink.png" alt="음식물 반입 제한">
+                    </div>
+                    <h4>음식물 반입 제한</h4>
+                    <p>
+                        음료는 <span>무알콜 음료만 반입</span>이 가능하며, <br>
+                        상영장 내 <span>조리는 금지</span>됩니다.
+                    </p>
+                </li>
+
+
+                <li>
+                    <div class="sn_icon">
+                        <img src="./images/sub3_screening_ticket/sn_nophoto.png" alt="촬영 제한">
+                    </div>
+                    <h4>촬영 제한</h4>
+                    <p>
+                        상영 중에는 <span>사진/동영상 촬영 및 <br>
+                        녹음이 금지</span>됩니다.
+                    </p>
+                </li>
+
+
+                <li>
+                    <div class="sn_icon">
+                        <img src="./images/sub3_screening_ticket/sn_ticket.png" alt="티켓 소지">
+                    </div>
+                    <h4>티켓 소지</h4>
+                    <p>
+                        반드시 <span>모바일 티켓 및 지류 티켓을 소지</span>하여야 <br>
+                        영화를 관람하실 수 있습니다.
+                    </p>
+                </li>
+
+
+                <li> 
+                    <div class="sn_icon">
+                        <img src="./images/sub3_screening_ticket/sn_nophone.png" alt="휴대폰 사용">
+                    </div>
+                    <h4>휴대폰 사용</h4>
+                    <p>
+                        다른 관객분들을 배려하여 영화 관람 시 <br>
+                        <span>휴대전화의 전원</span>을 꺼주시기 바랍니다.
+                    </p>
+                </li>
+                    
+            </ul>
+
+        </div><!-- sn -->
+
+        
+    </main>
+    
+
+
+    <div class="footer_box nlftbox">
+
+        <footer>
+            <div class="footer_inner">
+                <a href="./index.html"><img src="./images/common/footer_logo.png" alt="부산거리영화제 로고"></a>
+                <p class="footer_big">
+                    <a href="#none">이메일무단수집거부</a>   |   <a href="#none">개인정보처리방침</a>   |   <a href="#none">이용약관</a>   |   <a href="#none">저작권보호정책</a>
+                </p>
+                <ul>
+                    <a href="#none"><li><img src="./images/common/footer_insta.png" alt="인스타"></li></a>
+                    <a href="#none"><li><img src="./images/common/footer_youtube.png" alt="유튜브"></li></a>
+                    <a href="#none"><li><img src="./images/common/footer_tweeter.png" alt="트위터"></li></a>
+                    <a href="#none"><li><img src="./images/common/footer_meta.png" alt="메타"></li></a>
+                    <a href="#none"><li><img src="./images/common/footer_blog.png" alt="블로그"></li></a>
+                </ul>
+    
+                <p>
+                    부산광역시 중구 중앙대로 26 다원중앙타워 10층 (48942)  |  Tel.051-000-0000  |  Fax.051-000-0000 <br>
+                    Copyright Busan street film festival. All rights reserved.
+                </p>
+            </div><!-- footer_inner -->
+        </footer>
+
+        <!-- footer waves -->
+        <svg class="f_waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 50" preserveAspectRatio="none" shape-rendering="auto" height="640">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+            <use class="ftwave" xlink:href="#gentle-wave" x="48" y="0" fill="#51b969" />
+        </g>
+        </svg>
+
+    </div><!-- footer box nlft box -->
+
+</body>
+</html>

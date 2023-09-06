@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- page title -->
+    <title>부산거리영화제</title>
+    <link rel="shortcut icon" href="./images/common/bsff_favicon.png" type="image/x-icon">
+    <!-- font -->
+    <link rel="stylesheet" href="./fonts/pretendard.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- aos animation -->
+    <!--aos CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- js -->
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/bsff_js.js"></script>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- header -->
+
+    <header id="header">
+        <div class="header_inner">
+            <h1>
+                <a href="./index.html">
+                    <img class="logo1" src="./images/common/logo1.png" alt="부산거리영화제 로고1">
+                    <div class="logo_symbol">
+                        <img class="logo2" src="./images/common/logo2.png" alt="로고2">
+                        <div class="film"></div>
+                    </div><!-- logo_symbol -->
+                </a>
+            </h1>
+
+
+            <div class="header_menu">
+                <ul id="gnb">
+                    <li>
+                        <a href="./sub1.html">BSFF</a>
+                        <ul class="sub sub1">
+                            <li><a href="./sub1.html#intro">영화제 소개</a></li>
+                            <li><a href="./sub1.html#overview">개최개요</a></li>
+                            <li><a href="./sub1.html#fi">FI</a></li>
+                            <li><a href="./sub1.html#pt">포스터 / 트레일러</a></li>
+                            <li><a href="./sub1.html#oc">조직구성</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="./sub2.html">PROGRAM</a>
+                        <ul class="sub sub2">
+                            <li><a href="./sub2.html#program">BSFF 상영작</a></li>
+                            <li><a href="./sub2.html#program_event">프로그램 이벤트</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="./sub3.html">SCREENING / TICKET</a>
+                        <ul class="sub sub3">
+                            <li><a href="./sub3.html#st">상영시간표</a></li>
+                            <li><a href="./sub3.html#sv">상영장소안내</a></li>
+                            <li><a href="./sub3.html#ti">예매안내</a></li>
+                            <li><a href="./sub3.html#sn">관람유의사항</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="./sub4.html">COMMUNITY</a>
+                        <ul class="sub sub4">
+                            <li><a href="./sub4.html#nn">공지사항 / 뉴스</a></li>
+                            <li><a href="./sub4.html#event">이벤트 / 공연 / 전시</a></li>
+                            <li><a href="./sub4.html#store">BSFF 스토어</a></li>
+                            <li><a href="./sub4.html#webzine">BSFF 웹진</a></li>
+                            <li><a href="./sub4.html#faq">FAQ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="h_utility">
+                    <li><a href="#none"><img src="./images/common/header_login _icon.png" alt="로그인"></a></li>
+                    <li><a href="#none"><img src="./images/common/header_mypage_icon.png" alt="마이페이지"></a></li>
+                    <li><a href="#none"><img src="./images/common/header_search_icon.png" alt="검색"></a></li>
+                </ul>
+            </div><!-- menu -->
+        </div><!-- header_inner -->
+    </header>
+
+
+    <!-- quick menu -->
+
+    <div id="quick_menu">
+        <ul>
+            <li>
+                <a href="#none">
+                    <div class="quick_box">
+                        <img src="./images/common/fixed_menu_ticket.png" alt="티켓 바로가기" title="티켓 바로가기">
+                    </div><!-- quick_box -->    
+                </a>
+            </li>
+
+            <li>
+                <a href="#none">
+                    <div class="quick_box">
+                        <img src="./images/common/fixed_menu_time.png" alt="상영시간표 바로가기" title="상영시간표 바로가기">
+                    </div><!-- quick_box -->
+                </a>
+            </li>
+
+            <li>
+                <a href="#none">
+                    <div class="quick_box">
+                        <img src="./images/common/fixed_menu_inquiry.png" alt="1:1문의 바로가기" title="1:1문의 바로가기">
+                    </div><!-- quick_box -->
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <div class="quick_box">
+                        <img src="./images/common/fixed_menu_top.png" alt="맨 위로 가기" title="맨 위로 가기">
+                    </div><!-- quick_box -->
+                </a>
+            </li>
+        </ul>
+    </div><!-- quick menu -->
+
+    <main>
+    <!-- main_banner -->
+
+  <div class="swiper main_banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href="#none"><img src="./images/main/mb_1.jpg" alt="부산거리영화제"></a></div>
+      <div class="swiper-slide"><a href="#none"><img src="./images/main/mb_2.jpg" alt="개막작: 수신인 없는 편지"></a></div>
+      <div class="swiper-slide"><a href="#none"><img src="./images/main/mb_3.jpg" alt="폐막작: 정읍에서 부른 노래"></a></div>
+      <div class="swiper-slide"><a href="#none"><img src="./images/main/mb_4.jpg" alt="부산거리영화제 프로그램&이벤트"></a></div>
+    </div><!-- swiper wrapper -->
+    <div class="swiper-button-next mb_next"></div>
+    <div class="swiper-button-prev mb_prev"></div>
+    <div class="swiper-pagination mb_pag"></div>
+  </div><!-- swiper mainbanner -->
+
+
+  <!-- information(menu) -->
+
+    <div id="information">
+
+        <div class="i_title">
+            <div class="line"></div>
+            <h1>INFORMATION</h1>
+            <div class="line"></div>
+        </div><!-- i_title -->
+
+
+        <div class="i_flex">
+
+            <div class="info_menu info_guide" data-aos="fade-down" data-aos-duration="600" data-aos-delay="0">
+                <h3 class="info_title">영화제 가이드</h3>
+                <img src="./images/main/info_guide.png" alt="가이드 아이콘">
+                <br>
+                <a href="#none" class="i_btn info_go info_go_guide">GO</a>
+                <a href="#none" class="i_btn info_go_side info_go_side_guide"></a>
+            </div><!-- info-guide -->
+    
+            <div class="info_menu info_ticket" data-aos="fade-down" data-aos-duration="600" data-aos-delay="100">
+                <h3 class="info_title">티켓 예매 안내</h3>
+                <img src="./images/main/info_ticket.png" alt="티켓 예매 안내 아이콘">
+                <br>
+                <a href="./sub3.html#ti" class="i_btn info_go info_go_ticket">GO</a>
+                <a href="./sub3.html#ti" class="i_btn info_go_side info_go_side_ticket"></a>
+            </div><!-- info-guide -->
+    
+            <div class="info_menu info_book" data-aos="fade-down" data-aos-duration="600" data-aos-delay="200">
+                <h3 class="info_title">상영작 예매하기</h3>
+                <img src="./images/main/info_ticket_2.png" alt="상영작 예매 아이콘">
+                <br>
+                <a href="#none" class="i_btn info_go info_go_book">GO</a>
+                <a href="#none" class="i_btn info_go_side info_go_side_book"></a>
+            </div><!-- info-book -->
+    
+            <div class="info_menu info_venue" data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">
+                <h3 class="info_title">상영 장소 정보</h3>
+                <img src="./images/main/ifno_pin.png" alt="상영 장소 정보 아이콘">
+                <br>
+                <a href="./sub3.html#sv" class="i_btn info_go info_go_venue">GO</a>
+                <a href="./sub3.html#sv" class="i_btn info_go_side info_go_side_venue"></a>
+            </div><!-- info-venue -->
+    
+            <div class="info_menu info_store" data-aos="fade-down" data-aos-duration="600" data-aos-delay="400">
+                <h3 class="info_title">팝업스토어 안내</h3>
+                <img src="./images/main/info_store.png" alt="스토어 아이콘">
+                <br>
+                <a href="#none" class="i_btn info_go info_go_store">GO</a>
+                <a href="#none" class="i_btn info_go_side info_go_side_store"></a>
+            </div><!-- info-venue -->
+    
+        </div><!-- i_flex -->
+
+    </div><!-- information -->
+
+
+
+    <!-- about_go -->
+
+        <div id="about_go">
+
+                <div class="about_go_inner">
+                    <div class="about_go_subtitle">
+                        <div class="about_subtitle_line"></div>
+                        <h2>지금, 거리 위의 우리는</h2>
+                    </div>
+    
+                    <h1>ABOUT BSFF</h1>
+             
+                    <svg class="circletext" viewBox="0 0 100 100" width="420" height="420">
+                        <defs>
+                            <path id="circle"
+                            d="
+                                M 50, 50
+                                m -37, 0
+                                a 37,37 0 1,1 74,0
+                                a 37,37 0 1,1 -74,0"/>
+                        </defs>
+                        <text font-size="4px" font-weight="700" fill="white">
+                            <textPath xlink:href="#circle">
+                                BUSAN STREET FILM FESTIVAL
+                                BUSAN STREET FILM FESTIVAL
+                                BUSAN STREET FILM FESTIVAL
+                                BUSAN STREET FILM FESTIVAL
+                            </textPath>
+                        </text>
+                    </svg>
+
+                        <a href="./sub1.html#intro">GO!</a>
+
+                </div><!-- about_go_inner -->
+            
+                <div class="about_go_blurfilter">
+                </div><!-- about go bluefilter -->
+
+        </div><!-- about_go -->
+
+    <!-- screening -->
+
+    <div id="screening">
+        <div class="scr_inner">
+
+                <h1 class="title">SCREENING FILM</h1>
+
+            <div class="scr_opcl">
+                <div class="opcl_pic opening" data-aos="fade-right" data-aos-duration="300" data-aos-delay="100">
+                    <ul>
+                        <li><img src="./images/main/opening.jpg" alt="개막작_수신인 없는 편지"></li>
+                        <li><img src="./images/main/opening_2.jpg" alt="개막작_수신인 없는 편지"></li>
+                        <li><img src="./images/main/opening_3.jpg" alt="개막작_수신인 없는 편지"></li>
+                    </ul>
+                </div><!-- opcl pic -->
+
+
+                <div class="opcl_text">
+                    <h2>수신인 없는 편지</h2>
+                    <p>2023 | 113min | Fiction | Color | DCP</p>
+                    
+                    <div class="opcl_seemore">
+                        <a href="#none">
+                            <p>SEE MORE<img src="./images/main/seemore_arrow.png" alt="더 보기 화살표"></p>
+                            <img src="./images/main/seemore_op.png" alt="원">
+                        </a>
+                    </div><!-- opcl_see more -->
+                </div><!-- opcl text -->
+
+
+                <div class="opcl_text">
+                    <h2>정읍에서 부른 노래</h2>
+                    <p>2022 | 108min | Fiction | Color | DCP</p>
+                    
+                    <div class="opcl_seemore">
+                        <a href="#none">
+                            <p>SEE MORE<img src="./images/main/seemore_arrow.png" alt="더 보기 화살표"></p>
+                            
+                            <img src="./images/main/seemore_cl.png" alt="원">
+                        </a>
+                    </div><!-- opcl_see more -->
+                </div><!-- opcl text -->
+
+
+                    <div class="opcl_pic closing" data-aos="fade-left" data-aos-duration="300" data-aos-delay="100">
+                        <ul>
+                            <li><img src="./images/main/closing.jpg" alt="폐막작_정읍에서 부른 노래"></li>
+                            <li><img src="./images/main/closing_2.jpg" alt="폐막작_정읍에서 부른 노래"></li>
+                            <li><img src="./images/main/closing_3.jpg" alt="폐막작_정읍에서 부른 노래"></li>
+                        </ul>
+                    </div><!-- opcl pic -->
+
+            </div><!-- scr opcl -->
+
+
+            <div class="scrbox">
+
+                <div class="scr_movie">
+                    <a href="#none">
+                        <div class="scr_movie_img">
+                            <img src="./images/movie_thumbnail/m1.jpg" alt="영원한 5월 썸네일">
+                        </div><!-- scr_movie_img -->
+                        <p class="scr_movie_title">영원한 5월</p>
+                        <p class="scr_movie_info">2020 | 116min | Fictioin | Color | DCP</p>
+                    </a>
+                </div><!-- scr_moive -->
+
+                <div class="scr_movie">
+                    <a href="#none">
+                        <div class="scr_movie_img">
+                            <img src="./images/movie_thumbnail/m2.jpg" alt="뉴 타운 썸네일">
+                        </div><!-- scr_movie_img -->
+                        <p class="scr_movie_title">뉴 타운</p>
+                        <p class="scr_movie_info">2024 | 89min | Fiction | Color | DCP</p>
+                    </a>
+                </div><!-- scr_moive -->
+
+                <div class="scr_movie">
+                    <a href="#none">
+                        <div class="scr_movie_img">
+                            <img src="./images/movie_thumbnail/m3.jpg" alt="유령과 떠난 여행 썸네일">
+                        </div><!-- scr_movie_img -->
+                        <p class="scr_movie_title">유령과 떠난 여행</p>
+                        <p class="scr_movie_info">2022 | 110min | Fiction | Color | DCP</p>
+                    </a>
+                </div><!-- scr_moive -->
+
+                <div class="scr_movie">
+                    <a href="#none">
+                        <div class="scr_movie_img">
+                            <img src="./images/movie_thumbnail/m4.jpg" alt="로버트 씨의 성 썸네일">
+                        </div><!-- scr_movie_img -->
+                        <p class="scr_movie_title">로버트 씨의 성</p>
+                        <p class="scr_movie_info">2023 | 126min | Fiction | B&W | DCP</p>
+                    </a>
+                </div><!-- scr_moive -->
+
+                <div class="scr_movie">
+                    <a href="#none">
+                        <div class="scr_movie_img">
+                            <img src="./images/movie_thumbnail/m5.jpg" alt="약속: 그 해 가을의 기록 썸네일">
+                        </div><!-- scr_movie_img -->
+                        <p class="scr_movie_title">약속: 그 해 가을의 기록</p>
+                        <p class="scr_movie_info">2023 | 131min | Fiction | Color | DCP</p>
+                    </a>
+                </div><!-- scr_moive -->
+
+                <div class="scr_movie">
+                    <a href="#none">
+                        <div class="scr_movie_img">
+                            <img src="./images/movie_thumbnail/m6.jpg" alt="바람이 부는 곳에서 기다릴게 썸네일">
+                        </div><!-- scr_movie_img -->
+                        <p class="scr_movie_title">바람이 부는 곳에서 기다릴게</p>
+                        <p class="scr_movie_info">2022 | 103min | Fiction | Color | DCP</p>
+                    </a>
+                </div><!-- scr_moive -->
+
+                <div class="scr_movie">
+                    <a href="#none">
+                        <div class="scr_movie_img">
+                            <img src="./images/movie_thumbnail/m7.jpg" alt="로저 썸네일">
+                        </div><!-- scr_movie_img -->
+                        <p class="scr_movie_title">로저</p>
+                        <p class="scr_movie_info">2023 | 112min | Documentary | B&W | DCP</p>
+                    </a>
+                </div><!-- scr_moive -->
+
+                <div class="scr_movie">
+                    <a href="#none">
+                        <div class="scr_movie_img">
+                            <img src="./images/movie_thumbnail/m8.jpg" alt="헬싱키로 가는 길 썸네일">
+                        </div><!-- scr_movie_img -->
+                        <p class="scr_movie_title">헬싱키로 가는 길</p>
+                        <p class="scr_movie_info">2022 | 98min | Fiction | Color | DCP</p>
+                    </a>
+                </div><!-- scr_moive -->
+            </div><!-- scrbox -->
+
+
+            <div class="scr_more">
+                <a href="./sub2.html#program">MORE FILM</a>
+            </div><!-- scr_more -->
+            
+
+            <div class="scr_search">
+                <input type="search" placeholder="감독 / 작품명으로 검색" class="scr_search_text">
+                <a href="#none"><img src="./images/main/screening_search.png" alt="검색 버튼"></a>
+            </div><!-- scr_search -->
+
+        </div><!-- scr_inner -->
+    </div><!-- screening -->
+
+
+    <!-- main_event -->
+
+    <div id="main_event">
+
+        <img src="./images/main/rotate_film.png" alt="심볼_이벤트" class="event_film event_film_pink">
+
+        <h1 class="title">PROGRAM EVENT</h1>
+
+        <div class="flow flow_left">
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+        </div><!-- flow left-->
+
+        <div class="event_background">
+
+            <div class="event_inner">
+                <ul>
+                    <li>
+                        <img class="event_thumb" src="./images/main/event1.jpg" alt="구석구석 스탬프랠리">
+                        <div class="event_view">
+                            <a href="#none">MORE VIEW
+                                <img src="./images/main/event_more_arrow.png" alt="더보기 화살표">
+                            </a>
+                        </div><!-- event_view -->
+                    </li>
+
+                    <li>
+                        <img class="event_thumb" src="./images/main/event2.jpg" alt="순간 속에서">
+                        <div class="event_view">
+                            <a href="#none">MORE VIEW
+                                <img src="./images/main/event_more_arrow.png" alt="더보기 화살표">
+                            </a>
+                        </div><!-- event_view -->
+                    </li>
+
+
+                    <li>
+                        <img class="event_thumb" src="./images/main/event3.jpg" alt="속닥속닥 영화 토크">
+                        <div class="event_view">
+                            <a href="#none">MORE VIEW
+                                <img src="./images/main/event_more_arrow.png" alt="더보기 화살표">
+                            </a>
+                        </div><!-- event_view -->
+                    </li>    
+                </ul>
+    
+
+            <a class="event_more" href="./sub2.html#program_event">MORE EVENT</a>
+
+        </div><!-- event_inner -->
+
+    </div><!-- event background -->
+
+
+        <div class="flow flow_right">
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+            <p> BUSAN STREET FILM FESTIVAL </p>
+        </div><!-- flow right-->
+
+        <img src="./images/main/rotate_film2.png" alt="심볼_이벤트" class="event_film event_film_blue">
+
+    </div><!-- main event -->
+
+
+
+    <!-- community -->
+
+    <div id="community">
+        <div class="community_inner">
+
+            <h1 class="title">COMMUNITY</h1>
+
+            <!-- wzst -->
+            <div class="wzst">
+                <div class="webzine" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
+
+                    <h2 class="wzst_boxtit webzine_boxtit">BSFF WEBZINE</h2>
+
+                    <div class="webzine_box">
+                        <div class="wzst_text webzine_text">
+                            <p class="wzst_subtit">부산거리영화제 웹진</p>
+                            <h2 class="wzst_tit">
+                                ○○와 나의 <br>
+                                거 &nbsp &nbsp &nbsp &nbsp &nbsp 리
+                            </h2>
+                            <div class="wzst_line"></div>
+                            <img class="wzst_move webzine_move" src="./images/main/main_webzine_move.png" alt="도형">
+                            <a class="wzst_more" href="./sub4.html#webzine">MORE VIEW</a>
+                        </div><!-- webzine_text -->
+    
+                          <!-- Swiper -->
+                        <div class="swiper wzst_swiper webzine_swiper">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide wzst_slide"><a href="#"><img src="./images/main/webzine1.jpg" alt="부산거리영화제 웹진 28호 스크린과 나의 거리"></a></div>
+                            <div class="swiper-slide wzst_slide"><a href="#"><img src="./images/main/webzine2.jpg" alt="부산거리영화제 웹진 27호 당신과 나의 거리"></a></div>
+                            <div class="swiper-slide wzst_slide"><a href="#"><img src="./images/main/webzine3.jpg" alt="부산거리영화제 웹진 26호 과거와 나의 거리"></a></div>
+                            </div>
+                            <div class="swiper-pagination wzst_pag"></div>
+                        </div><!-- webzine swiper -->
+                    </div><!-- webzine box -->
+                    
+                </div><!-- webzine -->
+
+
+                <div class="store" data-aos="fade-right" data-aos-duration="500" data-aos-delay="100">
+
+                    <h2 class="wzst_boxtit store_boxtit">BSFF STORE</h2>
+                <div class="store_box">
+
+                    <!-- Swiper -->
+                    <div class="swiper wzst_swiper store_swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide wzst_slide"><a href="#"><img src="./images/main/goods1.jpg" alt="부산거리영화제 굿즈 로고 캔뱃지"></a></div>
+                            <div class="swiper-slide wzst_slide"><a href="#"><img src="./images/main/goods2.jpg" alt="부산거리영화제 굿즈 로고 머그컵"></a></div>
+                            <div class="swiper-slide wzst_slide"><a href="#"><img src="./images/main/goods3.jpg" alt="부산거리영화제 굿즈 노트"></a></div>
+                            <div class="swiper-slide wzst_slide"><a href="#"><img src="./images/main/goods4.jpg" alt="부산거리영화제 굿즈 달력"></a></div>
+                            <div class="swiper-slide wzst_slide"><a href="#"><img src="./images/main/goods5.jpg" alt="부산거리영화제 굿즈 노트"></a></div>
+                            <div class="swiper-slide wzst_slide"><a href="#"><img src="./images/main/goods6.jpg" alt="부산거리영화제 굿즈 개막작 포스터"></a></div>
+                            <div class="swiper-slide wzst_slide"><a href="#"><img src="./images/main/goods7.jpg" alt="부산거리영화제 굿즈 폐막작 포스터"></a></div>
+                        </div>
+                        <div class="swiper-pagination wzst_pag"></div>
+                    </div><!-- store swieper -->
+                
+                    <div class="wzst_text store_text">
+                        <p class="wzst_subtit">부산거리영화제 스토어</p>
+                        <h2 class="wzst_tit">
+                            BSFF<br>
+                            STORE
+                        </h2>
+                        <div class="wzst_line"></div>
+                        <img class="wzst_move store_move" src="./images/main/main_store_move.png" alt="도형">
+                        <a class="wzst_more" href="./sub4.html#store">MORE VIEW</a>
+                    </div><!-- store_text -->
+
+                </div><!-- store box -->
+
+                </div><!-- store -->
+
+            </div><!-- wzst -->
+
+
+            <!-- bsff sns -->
+            <div class="bsff_sns">
+                <h2>BSFF SNS</h2>
+                <ul>
+                    <a href="#none" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0">
+                        <li>
+                            <img src="./images/main/main_sns_i.png" alt="bsff 인스타">
+                        </li>
+                    </a>
+
+                    <a href="#none" data-aos="fade-down" data-aos-duration="500" data-aos-delay="50">
+                        <li>
+                            <img src="./images/main/main_sns_y.png" alt="bsff 유튜브">
+                        </li>
+                    </a>
+
+                    <a href="#none" data-aos="fade-down" data-aos-duration="500" data-aos-delay="100">
+                        <li>
+                            <img src="./images/main/main_sns_t.png" alt="bsff 트위터">
+                        </li>
+                    </a>
+
+                    <a href="#none" data-aos="fade-down" data-aos-duration="500" data-aos-delay="150">
+                        <li>
+                            <img src="./images/main/main_sns_f.png" alt="bsff 메타">
+                        </li>
+                    </a>
+
+                    <a href="#none" data-aos="fade-down" data-aos-duration="500" data-aos-delay="200">
+                        <li>
+                            <img src="./images/main/main_sns_b.png" alt="bsff 블로그">
+                        </li>
+                    </a>
+                </ul>
+            </div><!-- bsff sns -->
+
+        </div><!-- community_inner -->
+            
+
+            <!-- notice and news -->
+            <div class="notice_and_news">
+                
+                <h1 class="notice_and_news_tit">
+                    공지사항 / NEWS
+                </h1>
+                
+                <ul class="notice_and_news_inner">
+
+    
+                    <li class="notice">
+                        <ul class="main_notice">
+                            <li class="notice_news_li_tit notice_li_tit">BSFF 공지사항</li>
+                            <li>
+                                <a href="./sub4.html#nn">
+                                    <p>[공지] 상영 장소 일부 변경 안내</p>
+                                    <span class="date">2024/04/07</span>
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a href="./sub4.html#nn">
+                                    <p>[공지] 부산거리영화제 티켓 예매 안내사항</p>
+                                    <span class="date">2024/04/01</span>
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a href="./sub4.html#nn">
+                                    <p>[공고] 부산거리영화제 시민 기자단 모집 공고</p>
+                                    <span class="date">2024/03/19</span>
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a href="./sub4.html#nn">
+                                    <p>[공지] 부산단편영화 상영작 결정 및 작품일람</p>
+                                    <span class="date">2024/03/08</span>
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a href="./sub4.html#nn">
+                                    <p>[공고] 부산거리영화제 자원봉사자 모집 공고</p>
+                                    <span class="date">2024/02/23</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+    
+    
+                    <li class="news">
+                        <ul class="main_news">
+                            <li class="notice_news_li_tit news_li_tit">BSFF NEWS</li>
+    
+                            <li>
+                                <a href="./sub4.html#nn">
+                                    <p>[보도자료] 부산거리영화제 개최 준비 한창… 올해는 어디서?</p>
+                                    <span class="date">2024/04/11</span>
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a href="./sub4.html#nn">
+                                    <p>[거리영화제소식] 올해 부산거리영화제 상영 장소 확정!</p>
+                                    <span class="date">2024/03/18</span>
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a href="./sub4.html#nn">
+                                    <p>[보도자료] 찾아가는 영화제, 올해도 열리는 ‘부산거리영화제’</p>
+                                    <span class="date">2024/03/12</span>
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a href="./sub4.html#nn">
+                                    <p>[거리영화제소식] 거리영화제 팝업 스토어 운영 결정</p>
+                                    <span class="date">2024/03/07</span>
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a href="./sub4.html#nn">
+                                    <p>[거리영화제소식] 투표로 정하는 부산거리영화제 특별 상영작</p>
+                                    <span class="date">2024/02/26</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="notice_more">
+                    <a href="./sub4.html#nn">MORE VIEW</a>
+                    <a href="./sub4.html#nn"></a>
+                </div><!-- notice_more -->
+        
+            </div><!-- notice_and_news -->
+
+    </div><!-- community -->
+    </main>
+
+
+    <div class="footer_box nlftbox">
+
+        <div id="newsletter">
+            <div class="newsletter_inner">
+                <h2>NEWS LETTER</h2>
+                <input class="nl_email" type="text" placeholder="E-MAIL을 입력하여 뉴스레터를 구독하세요!">
+                <input class="nl_btn" type="submit" value="구독하기" style="cursor: pointer;">
+            </div><!-- newsletter_inner -->    
+        </div><!-- newsletter -->
+
+        <footer>
+            <div class="footer_inner">
+                <a href="./index.html"><img src="./images/common/footer_logo.png" alt="부산거리영화제 로고"></a>
+                <p class="footer_big">
+                    <a href="#none">이메일무단수집거부</a>   |   <a href="#none">개인정보처리방침</a>   |   <a href="#none">이용약관</a>   |   <a href="#none">저작권보호정책</a>
+                </p>
+                <ul>
+                    <a href="#none"><li><img src="./images/common/footer_insta.png" alt="인스타"></li></a>
+                    <a href="#none"><li><img src="./images/common/footer_youtube.png" alt="유튜브"></li></a>
+                    <a href="#none"><li><img src="./images/common/footer_tweeter.png" alt="트위터"></li></a>
+                    <a href="#none"><li><img src="./images/common/footer_meta.png" alt="메타"></li></a>
+                    <a href="#none"><li><img src="./images/common/footer_blog.png" alt="블로그"></li></a>
+                </ul>
+    
+                <p>
+                    부산광역시 중구 중앙대로 26 다원중앙타워 10층 (48942)  |  Tel.051-000-0000  |  Fax.051-000-0000 <br>
+                    Copyright Busan street film festival. All rights reserved.
+                </p>
+            </div><!-- footer_inner -->
+        </footer>
+
+        <!-- newsletter waves -->
+        <svg class="nl_waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 90 60" preserveAspectRatio="none" shape-rendering="auto" height="1280">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+            <use class="nlwave" xlink:href="#gentle-wave" x="48" y="7" fill="#89cbf5" />
+        </g>
+        </svg>
+
+        <!-- footer waves -->
+        <svg class="f_waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 50" preserveAspectRatio="none" shape-rendering="auto" height="640">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+            <use class="ftwave" xlink:href="#gentle-wave" x="48" y="0" fill="#51b969" />
+        </g>
+        </svg>
+
+    </div><!-- footer box nlft box -->
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper main_banner-->
+  <script>
+    var swiper = new Swiper(".main_banner", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      speed: 1000,
+      loop: true,
+    });
+  </script>
+
+    <!-- Initialize Swiper wzst swiper-->
+    <script>
+        var swiper = new Swiper(".wzst_swiper", {
+          slidesPerView: 3,
+          spaceBetween: 18,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+      speed: 1000,
+      loop: true,
+        });
+      </script>    
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
