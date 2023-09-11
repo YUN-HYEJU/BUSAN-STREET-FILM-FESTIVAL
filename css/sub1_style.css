@@ -11,7 +11,6 @@ img,video,iframe {vertical-align: middle;}
 
 html{
     height: 100%;
-    min-width: 1320px;
 }
 
 body {
@@ -24,6 +23,7 @@ body {
     scroll-behavior: smooth;
     display: flex;
     flex-direction: column;
+    min-width: 1450px;
     min-height: 100vh;
 }
 
@@ -1095,6 +1095,10 @@ p.ov2_s{
 
 .pt_t .fi_text{
     padding: 50px 0 0;
+}
+
+#pt video{
+    border: #2d2d2d solid 2px;
 }
 
 
