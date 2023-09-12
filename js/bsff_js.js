@@ -77,6 +77,17 @@ $(function(){
     };
 });
 
+// infobtn pop up
+$(function(){
+    $(".info_go_guide").click(function(){
+        $(".popup_g").fadeIn(250);
+    });
+    $(".popup_close").click(function(){
+        $(".popup").fadeOut(250);
+    });
+
+});
+
 
 // sub1
 // overview tap
