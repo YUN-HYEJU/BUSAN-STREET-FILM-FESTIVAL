@@ -36,11 +36,11 @@ main{
 
 /* scroll */
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 12px;
 
 }
 ::-webkit-scrollbar-thumb{
-    width: 6px;
+    width: 10px;
     height: 20%;
     background-color: #2d2d2d;
     border-radius: 10px;
@@ -335,19 +335,19 @@ header .header_inner .header_menu .h_utility li{
 div#quick_menu {
     position: fixed;
     z-index: 90;
-    right: 32px;
-    top: 560px;
+    right: 20px;
+    bottom: 30px;
 }
 
 div#quick_menu ul li{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 
 div#quick_menu ul li a div.quick_box{
     background-color: #fff;
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
     border: 2px solid #2d2d2d;
     border-radius: 50%;
     display: flex;
@@ -813,26 +813,6 @@ svg.banner_title text:nth-child(8) {
     box-shadow: 24px 24px 0 #6eb7e4;
 }
 
-/* .pe_img h2{
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 48px;
-    position: absolute;
-
-}
-
-.pe_img1 h2, .pe_img3 h2{
-    transform: rotate(-90deg);
-    left: -177px;
-}
-
-.pe_img2 h2, .pe_img4 h2{
-    transform: rotate(90deg);
-    right: -188px;
-} */
-
-
-
 .pe_text .right{
     text-align: right;
 }
@@ -872,23 +852,23 @@ svg.banner_title text:nth-child(8) {
 
 
 .pink{
-    background-color: #ed8890;
-    color: #fff;
+    font-weight: 700;
+    box-shadow: inset 0 -10px 0 #ed8890;
 }
 
 .orange{
-    background-color: #f27351;
-    color: #fff;
+    font-weight: 700;
+    box-shadow: inset 0 -10px 0 #f27351;
 }
 
 .green{
-    background-color: #51b969;
-    color: #fff;
+    font-weight: 700;
+    box-shadow: inset 0 -10px 0 #51b969;
 }
 
 .blue{
-    background-color: #6eb7e4;
-    color: #fff;
+    font-weight: 700;
+    box-shadow: inset 0 -10px 0 #6eb7e4;
 }
 
 

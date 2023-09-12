@@ -33,11 +33,11 @@ main{
 
 /* scroll */
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 12px;
 
 }
 ::-webkit-scrollbar-thumb{
-    width: 6px;
+    width: 10px;
     height: 20%;
     background-color: #2d2d2d;
     border-radius: 10px;
@@ -327,19 +327,19 @@ header .header_inner .header_menu .h_utility li{
 div#quick_menu {
     position: fixed;
     z-index: 90;
-    right: 32px;
-    top: 560px;
+    right: 20px;
+    bottom: 30px;
 }
 
 div#quick_menu ul li{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 
 div#quick_menu ul li a div.quick_box{
     background-color: #fff;
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
     border: 2px solid #2d2d2d;
     border-radius: 50%;
     display: flex;
@@ -1211,9 +1211,10 @@ div.bsff_sns ul a:nth-child(5):hover{
     padding: 20px 0;
     padding-left: 15px;
     font-size: 22px;
-    font-weight: 700;
-    color: #fff;
-    border: none;
+    font-weight: 600;
+    color: #2d2d2d;
+    border-bottom: 2px solid #2d2d2d;
+    border-top: 2px solid #2d2d2d;
 }
 
 .notice_news_li_tit.notice_li_tit{
@@ -1271,6 +1272,89 @@ div.bsff_sns ul a:nth-child(5):hover{
 }
 
 
+/* popup */
+.popup{
+    width: 800px;
+    height: 600px;
+    border: 2px solid #2d2d2d;
+    background: url(../images/main/popup_bg.jpg) no-repeat center top;
+    box-sizing: border-box;
+    padding: 60px 80px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+
+.popup h2{
+    font-size: 28px;
+    line-height: 28px;
+    padding-bottom: 50px;
+    font-weight: 500;
+}
+
+.popup p{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.download{
+    background-color: #2d2d2d;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top: 30px;
+    text-align: center;
+    border: #2d2d2d 2px solid;
+}
+
+.download:hover{
+    background-color: #fff;
+    color: #2d2d2d;
+}
+
+.popup p.small {
+    font-size: 16px;
+}
+
+.popup img{
+    border: #2d2d2d 2px solid;
+    margin-bottom: 70px;
+    border-radius: 0 100px 0 0;
+}
+
+.g_box p{
+    text-align: center;
+    box-sizing: border-box;
+    width: 350px;
+    padding: 30px 0;
+}
+
+.g_box{
+    display: flex;
+        justify-content: space-between;
+}
+
+.popup .popup_close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 50px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.popup .popup_close:hover{
+    color: #f27351;
+}
+
+.popup_g span{
+    color: #f27351;
+}
+
 
 /* nlftbox */
 .footer_box.nlftbox{
@@ -1278,19 +1362,13 @@ div.bsff_sns ul a:nth-child(5):hover{
     position: relative;
     z-index: 10;
     height: 1000px;
-    /* position: fixed;
-    bottom: 0;
-    z-index: 1;
-    height: 100%; */
     background-color: #e6efef;
-
     padding-top: 200px;
 }
 
 
 /* newsletter*/
 #newsletter{
-    /* background-color: #e6efef; */
     height: 750px;
 }
 
@@ -1411,7 +1489,7 @@ p.footer_big a:hover{
 }
 
 .nl_waves{
-    bottom: 70px;  
+    bottom: 100px;  
     z-index: 5;
 }
 

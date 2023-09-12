@@ -35,11 +35,11 @@ main{
 
 /* scroll */
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 12px;
 
 }
 ::-webkit-scrollbar-thumb{
-    width: 6px;
+    width: 10px;
     height: 20%;
     background-color: #2d2d2d;
     border-radius: 10px;
@@ -331,19 +331,19 @@ header .header_inner .header_menu .h_utility li{
 div#quick_menu {
     position: fixed;
     z-index: 90;
-    right: 32px;
-    top: 560px;
+    right: 20px;
+    bottom: 30px;
 }
 
 div#quick_menu ul li{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 
 div#quick_menu ul li a div.quick_box{
     background-color: #fff;
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
     border: 2px solid #2d2d2d;
     border-radius: 50%;
     display: flex;
@@ -727,6 +727,10 @@ border-bottom: #2d2d2d solid 4px;
 
 /* sv */
 
+#sv{
+    background: url(../images/sub3_screening_ticket/sv_bg.jpg)no-repeat center top;
+}
+
 #sv .sv_inner{
     width: 1320px;
     margin: 0 auto;
@@ -838,7 +842,7 @@ border-bottom: #2d2d2d solid 4px;
 
 /* sv_into */
 .sv_info{
-    background-color: #f8f0e4;
+    background-color: #e6f0d3;
     border-top: #2d2d2d 2px solid;
     border-bottom: #2d2d2d 2px solid;
     padding: 50px 0 100px;
@@ -944,7 +948,7 @@ border-bottom: #2d2d2d solid 4px;
 
 /* ti */
 #ti{
-    background-color: #e6f0d3;
+    background-color: #d9e7e7;
 }
 
 #ti .ti_inner{
@@ -1048,7 +1052,7 @@ border-bottom: #2d2d2d solid 4px;
 /* sn */
 #sn{
     padding-top: 80px;
-    background-color: #e6f0d3;
+    background-color: #d9e7e7;
 }
 
 #sn ul{
@@ -1105,7 +1109,7 @@ border-bottom: #2d2d2d solid 4px;
     position: relative;
     z-index: 10;
     height: 640px;
-    background-color: #e6f0d3;
+    background-color: #d9e7e7;
 }
 
 
