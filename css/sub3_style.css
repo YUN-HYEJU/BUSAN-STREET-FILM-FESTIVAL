@@ -947,10 +947,6 @@ border-bottom: #2d2d2d solid 4px;
 
 
 /* ti */
-#ti{
-    background-color: #d9e7e7;
-}
-
 #ti .ti_inner{
     width: 1320px;
     margin: 0 auto;
@@ -1052,7 +1048,6 @@ border-bottom: #2d2d2d solid 4px;
 /* sn */
 #sn{
     padding-top: 80px;
-    background-color: #d9e7e7;
 }
 
 #sn ul{
@@ -1109,7 +1104,6 @@ border-bottom: #2d2d2d solid 4px;
     position: relative;
     z-index: 10;
     height: 640px;
-    background-color: #d9e7e7;
 }
 
 
