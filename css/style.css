@@ -703,9 +703,14 @@ div#information {
 
 .scr_opcl .opcl_text h2{ 
     font-size: 40px;
-    line-height: 40px;
+    line-height: 42px;
     font-weight: 600;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.scr_opcl .opcl_text h2 span{
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .scr_opcl .opcl_text p{
