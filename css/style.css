@@ -1360,6 +1360,62 @@ div.bsff_sns ul a:nth-child(5):hover{
     color: #f27351;
 }
 
+.popup_t p.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_t .t0, .t1, .t2{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #fff;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 80px;
+    border: 2px solid #2d2d2d;
+    border-radius: 100px;
+    margin: 60px 10px 110px;
+    transition: all 0.1s;
+}
+
+.t0:hover{
+    background-color: #f27351;
+}
+
+.t1:hover{
+    background-color: #51b969;
+}
+
+.t2:hover{
+    background-color: #6eb7e4;
+}
+
+
+
+.popup_p table{
+    padding: 20px;
+    font-size: 18px;
+    border-spacing: 10px;
+}
+
+.popup_p table th, .popup_p table td{
+    padding: 10px 20px;
+}
+
+.popup_p table th{
+    background-color: #ffea5b;
+    border-radius: 30px;
+    border: 2px solid #2d2d2d;
+}
+
+.popup_p .down{
+    text-align: center;
+}
+
 
 /* nlftbox */
 .footer_box.nlftbox{
