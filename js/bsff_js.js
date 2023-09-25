@@ -82,6 +82,16 @@ $(function(){
     $(".info_go_guide").click(function(){
         $(".popup_g").fadeIn(250);
     });
+
+    $(".info_go_book").click(function(){
+        $(".popup_t").fadeIn(250);
+    });
+
+
+    $(".info_go_store").click(function(){
+        $(".popup_p").fadeIn(250);
+    });
+
     $(".popup_close").click(function(){
         $(".popup").fadeOut(250);
     });
